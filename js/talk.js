@@ -3,12 +3,12 @@ new TypeIt("#tqyxhj", {
         cursorSpeed: 1000,
         speed: 100
     })
-    .type("TQY && XHJ")
+    .type("ZBC && ZXY")
     .pause(2000)
     .delete(null, {
         delay: 500
     })
-    .type("一起走过的第二个520...")
+    .type("To be continued...")
     .pause(3000)
     .go();
 
