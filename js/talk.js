@@ -8,7 +8,7 @@ new TypeIt("#zbczxy", {
     .delete(null, {
         delay: 500
     })
-    .type("To be continued...")
+    .type("The Story of Us")
     .pause(3000)
     .go();
 
