@@ -6,12 +6,12 @@ function lovetime() {
     var days = hours * 24
     var years = days * 365
     var today = new Date()
-    var todayYear = today.getFullYear()
-    var todayMonth = today.getMonth()
-    var todayDate = today.getDate()
-    var todayHour = today.getHours()
-    var todayMinute = today.getMinutes()
-    var todaySecond = today.getSeconds()
+    var todayYear = today.getUTCFullYear()
+    var todayMonth = today.getUTCMonth()
+    var todayDate = today.getUTCDate()
+    var todayHour = today.getUTCHours()
+    var todayMinute = today.getUTCMinutes()
+    var todaySecond = today.getUTCSeconds()
     // 修改这里时间即可 我的是2018.11.19
     var t1 = Date.UTC(2022, 5, 14, 21, 30, 00)
     var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond)
