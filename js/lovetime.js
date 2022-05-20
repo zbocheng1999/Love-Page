@@ -15,7 +15,7 @@ function lovetime() {
     var todaySecond = today.getSeconds()
 
 // 时间作差
-    var t1 = new Date(2022, 4, 14, 8, 00, 00)
+    var t1 = new Date(2022, 4, 14, 21, 30, 00)
     var t2 = new Date(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond)
     var diff = t2.getTime() - t1.getTime()
 
